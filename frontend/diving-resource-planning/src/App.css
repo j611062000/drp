@@ -1,0 +1,86 @@
+/* General App Styling */
+.App {
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+/* Header Styling */
+.App-header {
+  background-color: #282c34;
+  padding: 20px;
+  color: white;
+  font-size: 24px;
+}
+
+/* Main Content Styling */
+.main-content {
+  display: flex;
+  height: calc(100vh - 100px); /* Adjust the height as needed */
+}
+
+/* Sidebar Styling */
+.sidebar {
+  width: 200px;
+  background: #f4f4f4;
+  padding: 20px;
+  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+}
+
+/* Sidebar Button Styling */
+.sidebar button {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: none;
+  background: #007bff;
+  color: white;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background 0.3s;
+}
+
+.sidebar button:hover {
+  background: #0056b3;
+}
+
+/* Content Area Styling */
+.content {
+  flex-grow: 1;
+  padding: 20px;
+  text-align: left;
+}
+
+.content h2 {
+  margin-bottom: 20px;
+}
+
+.content ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.content ul li {
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+
+
+.table-container {
+  margin-top: 20px;
+}
+
+.table {
+  min-width: 650px;
+}
+
+.table th, .table td {
+  padding: 16px;
+}
+
+.dialog-content {
+  min-width: 500px;
+}

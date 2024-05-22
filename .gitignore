@@ -1,0 +1,95 @@
+# Node.js
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Logs
+logs
+*.log
+*.log.*
+
+# Dependency directories
+node_modules/
+jspm_packages/
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache
+
+# Optional REACT/JS package lock files
+package-lock.json
+yarn.lock
+
+# Optional REACT/JS IDE project files
+.idea/
+.vscode/
+.project
+*.sublime-project
+*.sublime-workspace
+
+# Build directories
+build/
+dist/
+.DS_Store
+
+# Coverage directory used by testing tools
+coverage/
+
+# Temporary files
+*.tmp
+*.temp
+
+# Output of 'npm pack'
+*.tgz
+
+# JetBrains IDEs
+*.iml
+
+# Mac system files
+.DS_Store
+
+# Flask/Python
+__pycache__/
+*.py[cod]
+*.egg
+*.egg-info/
+.eggs/
+.env
+
+# Flask environment variable files
+.env
+.venv/
+venv/
+ENV/
+
+# Pytest
+.cache/
+.tox/
+.pytest_cache/
+
+# Flask migrations
+migrations/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# VSCode
+.vscode/
+
+# Local environment settings
+*.env.local
+*.env.development.local
+*.env.test.local
+*.env.production.local
+
+# Parcel-bundler cache (React/JS)
+.cache/
+.parcel-cache/
+
+# Sass cache
+.sass-cache/
+
+# Python bytecode files
+*.pyc
